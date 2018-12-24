@@ -1,0 +1,19 @@
+{
+	"confirmationDate": "2018-12-24T00:28:50.448",
+	"status": "PENDING",
+	"address": "MOCK_ORDER_ADDRESS_STREET",
+	"items":[
+		{
+			"description": "MOCK_ORDER_ITEM_1_DESC",
+			"unitPrice": 2000,
+			"status": "PENDING",
+			"quantity": 2
+		},
+		{
+			"description": "MOCK_ORDER_ITEM_2_DESC",
+			"status": "PENDING",
+			"unitPrice": 5000,
+			"quantity": 1
+		}
+	]
+}

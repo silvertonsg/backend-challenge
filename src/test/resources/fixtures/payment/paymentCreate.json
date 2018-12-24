@@ -1,0 +1,6 @@
+{
+  "creditCardNumber": "MOCK_CREDIT_CARD_NUMBER",
+  "paymentDate":"2018-12-24T00:28:50.448",
+  "status":"PAGO",
+  "orderId": 1
+}
