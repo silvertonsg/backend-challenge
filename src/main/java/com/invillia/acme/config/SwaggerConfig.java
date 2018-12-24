@@ -49,7 +49,7 @@ public class SwaggerConfig {
                 .select()
                 .paths(regex("(/v1/stores.*|" +
                         "/v1/orders.*|" +
-                        "/v1/split.*){1}$"))
+                        "/v1/payments.*){1}$"))
 
                 .build();
     }
