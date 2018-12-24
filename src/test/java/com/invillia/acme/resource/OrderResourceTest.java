@@ -8,6 +8,7 @@ import org.junit.Test;
 import org.junit.runners.MethodSorters;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
+import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
@@ -16,6 +17,7 @@ import org.springframework.web.context.WebApplicationContext;
 
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
+@WithMockUser(username = "acmeService", password = "123456")
 public class OrderResourceTest extends InvilliaApplicationTest {
 
     @Autowired
